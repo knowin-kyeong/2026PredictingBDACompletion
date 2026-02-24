@@ -1,0 +1,8 @@
+numpy==2.0.2
+pandas==2.2.2
+scikit-learn==1.6.1
+scipy==1.16.3
+catboost==1.2.8
+torch==2.9.0
+optuna==4.6.0
+tqdm==4.67.1
