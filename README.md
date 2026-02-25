@@ -37,8 +37,8 @@ The base directory follows this directory structure (Simplified):
 │      submission_xgboost.csv
 │
 └─src
-       001_xgboost.ipynb
-       002_catboost.ipynb
+       001_catboost.ipynb
+       002_xgboost.ipynb
        003_hard_AND_ensemble.ipynb
 ```
 **submission_final.csv** is the final submission file.
@@ -47,7 +47,7 @@ How to Run
 ----------
 1. Place the 2026PredictingBDACompletion directory in your colab environment.
 2. Set up the dataset in the **/data** directory from DACON website.
-3. Run **all notebooks(001_xgboost, 002_catboost)** in the **/src** directory to train models and save the results in the **/outputs** directory.
+3. Run **all notebooks(001_catboost, 002_xgboost)** in the **/src** directory to train models and save the results in the **/outputs** directory.
 4. Run **003_hard_AND_ensemble** in the **/src** directory to generate final submission file, which will be saved as **submission_final.csv** in the base directory.
 5. Submit the final submission file from **submission_final.csv** to DACON!
 
